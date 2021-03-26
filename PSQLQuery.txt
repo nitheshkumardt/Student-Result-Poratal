@@ -1,0 +1,62 @@
+Create Table::
+	create table Login(name varchar(7) primary key,password varchar(11));
+	create table Student_Details(roll_number varchar(7) primary key,name text,dob varchar(12),programme varchar(10),branch text);
+	create table CourseCSE(course_id varchar(7) primary key,course_name text,credit integer);
+	create table CourseIT(course_id varchar(7) primary key,course_name text,credit integer);
+	create table CourseEEE(course_id varchar(7) primary key,course_name text,credit integer);
+	create table Sem6(roll_number varchar(7) primary key,course1 varchar(3),course2 varchar(3),course3 varchar(3),course4 varchar(3),course5 varchar(3));
+	create table profile(roll_number varchar(7),image text);
+
+
+Login::
+	insert into Login values('17F101','23/03/2021'),('17F122','30/01/2000'),('17F131','05/09/1999');
+	insert into Login values('17F233','10/10/1999'),('17F216','16/07/1999'),('17P127','15/10/2000');
+	insert into Login values('17P135','13/08/2000'),('17P209','10/01/2000',),('17E115','10/03/2000'),('17E242','25/12/2000');
+
+Student_Details::
+	insert into Student_Details values('17F101','Abishak R','23/03/2021','B.Tech','Information Technology');
+	insert into Student_Details values('17F122','Nithesh Kumar D','30/01/2000','B.Tech','Information Technology');
+	insert into Student_Details values('17F131','Sathish Kumar M','05/09/1999','B.Tech','Information Technology');
+	insert into Student_Details values('17F233','Ranjith Kumar C','10/10/1999','B.Tech','Information Technology');
+	insert into Student_Details values('17F216','Kishore P','16/07/1999','B.Tech','Information Technology');
+	insert into Student_Details values('17P127','Manoj Kumar M','15/10/2000','B.E','Computer Science');
+	insert into Student_Details values('17P135','Sivamanikandan G R','13/08/2000','B.E','Computer Science');
+	insert into Student_Details values('17P209','Indirajith','10/01/2000','B.E','Computer Science');
+	insert into Student_Details values('17E115','Logeshwaran N','10/03/2000','B.E','Electrical and Electronics Engineering '),('17E242','Vignesh M','25/12/2000','B.E','Electrical and Electronics Engineering ');
+
+
+Sem6::
+	insert into Sem6 values('17F101','A+','A','A+','B','A');
+	insert into Sem6 values('17F122','A+','A','A+','O','A');
+	insert into Sem6 values('17F131','A+','A','A+','B+','A');
+	insert into Sem6 values('17F233','A+','A','A','B','A');
+	insert into Sem6 values('17F216','A+','A','A+','A','A');
+	insert into Sem6 values('17P127','A+','A','A+','A+','A');
+	insert into Sem6 values('17P135','A+','A','O','B','A');
+	insert into Sem6 values('17P209','A+','O','A','B','A');
+	insert into Sem6 values('17E115','A+','A','A','A','A');
+	insert into Sem6 values('17E242','A','A','A','O','A');
+
+Profile::
+	insert into profile values ('17F101','https://thumbs.dreamstime.com/b/man-profile-cartoon-smiling-round-icon-vector-illustration-graphic-design-135443422.jpg');
+	insert into profile values ('17F122','https://i.pinimg.com/originals/58/53/58/585358534b49e15ceb29aebb9adc9f90.jpg');
+	insert into profile values ('17F131','https://image.freepik.com/free-vector/man-profile-cartoon_18591-58484.jpg');
+	insert into profile values ('17F233','https://banner2.cleanpng.com/20180422/kzq/kisspng-user-profile-computer-icons-user-interface-design-egyptian-culture-5adc0fa3cc7602.8400905915243713638375.jpg');
+	insert into profile values ('17F216','https://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_416292/Image/Profile%20pic.png');
+	insert into profile values ('17P127','https://st4.depositphotos.com/5934840/31202/v/950/depositphotos_312029306-stock-illustration-boy-face-avatar-profile-picture.jpg');
+	insert into profile values ('17P135','https://i.pinimg.com/originals/6d/5f/c6/6d5fc60bae3dc6139eefa31af206596f.jpg');
+	insert into profile values ('17P209','https://thumbs.dreamstime.com/b/little-kid-avatar-profile-picture-afroamerican-boy-hat-cartoon-character-portrait-149131739.jpg');
+	insert into profile values ('17E115','https://i.pinimg.com/originals/08/15/0f/08150f09dc86931cd590f29aa1b3b0d8.jpg');
+	insert into profile values ('17E242','https://i.pinimg.com/474x/2c/7a/4c/2c7a4c53c90894a42f5dbb2ffbf856d8.jpg');
+
+CourseIT::
+	insert into CourseIT values('17FD03','Operating Systems',4),('17FD11','Object Oriented Analysis and Design',4),('17FD19','Cryptography and Network Security',5),('17FE28','Advanced Web Scripting',4),('17FE19','Distributed Computing',3);
+
+CourseCSE::
+	insert into CourseIT values('17FD03','Operating Systems',4),('17PD11','Artificial intelligence',4),('17FD04','Computer Graphics and Multimedia',5),('17FE28','Advanced Web Scripting',4),('17FE19','Digital Signal Processing - Algorithms and Applications',3);
+
+CourseCSE::
+	insert into CourseIT values('17EC51','Communication Engineering ',4),('17EE01','Solid State Drives',3),('17EE02','EmbeddedSystems',4),('17FE28','Power System Operation and Control',5),('17EE04','Design of Electrical Machines',5);
+
+
+
