@@ -1,2 +1,3 @@
 # Student-Result-Poratal
-It is simple WebSite.It Shows the Student Resul  Based On their LogIn.
+It is simple WebSite.It Shows the Student Result
+Based On their LogIn.
